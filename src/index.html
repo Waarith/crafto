@@ -6,6 +6,9 @@
     <link rel="shortcut icon" href="images/Favicon.PNG" type="image/x-icon" class="rounded-full">
     <link rel="stylesheet" href="./About.html">
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <title>Crafto- The multipurpose</title>
 </head>
 <body>
@@ -46,9 +49,9 @@ style="fill:#FFFFFF;">
     </header>
         <!-- nav bar ends here -->  
           <!-- Yoga area -->
-        <section class="bg-[#E92861] grid">
-            <p class="text-white text-[270px] font-normal text-center">YOGA</p>
-            <img src="images/Excersise-one.webp" alt="An image here" class="w-[500px] mt-[-290px] mx-auto">
+        <section class="bg-[#E92861] grid ">
+            <p class="text-white text-[270px] font-normal text-center" data-aos="fade-left" data-aos-duration="700">YOGA</p>
+            <img src="images/Excersise-one.webp" alt="An image here" class="w-[500px] mt-[-290px] mx-auto" data-aos="fade-right" data-aos-duration="1500">
             <p class="text-white mx-auto mt-[-40px] text-lg">_ Better Control Your Sense_</p>
         </section> 
          <!--Yoga section ended  -->
@@ -151,39 +154,40 @@ style="fill:#FFFFFF;">
 
                 <div class="flex mt-16 ml-20">
                     <p class="text-2xl font-semibold text-center  max-w-[300px]">Special health benefits of yoga in the morning.</p>
-                    <!-- <div class="text-center">
-                        <marquee behavior="scroll" direction="left" scrollamount="4"><p class="text-xl ml-16  ">Prevents cartilage and joint breakdown</p>
-                        <p> <span class="text-5xl border border-gray-500 rounded-full ">01</span> <span class="text-xl ml-9 text-gray-300">Meditation  ipsum dolor sit amet consectetur.</span> </p> </marquee>
-                    </div>
 
-                    <div class="text-center">
-                        <marquee behavior="scroll" direction="left" scrollamount="4"><p class="text-xl ml-16  ">Prevents cartilage and joint breakdown</p>
-                        <p> <span class="text-5xl border border-gray-500 rounded-full ">02</span> <span class="text-xl ml-9 text-gray-300">Meditation  ipsum dolor sit amet consectetur.</span> </p> </marquee>
-                    </div> -->
-
-                    <div>
-                        <marquee behavior="" direction="" scrollamount>
-                            <div class="flex items-center ">
+                    <div class="overflow-hidden whitespace-nowrap">
+                            <div class="flex items-center animate-marquee">
+                            
                                 <p class="mx-10 p-5 border-2 border-gray-300 rounded-full">01</p>
                                 <div>
                                     <p class="text-xl text-semibold text-center">Prevents cartilage and joint breakdown</p>
                                     <p class="text-lg  text-semi">Lorem ipsum dolor sit amet, consectetur elit. </p>
                                 </div>
-                            </div>
-                        </marquee>
-                    </div>
+                            
 
-                    <div>
-                        <marquee behavior="" direction="" scrollamount>
-                            <div class="flex items-center ">
-                                <p class="mx-10 p-5 border-2 border-gray-300 rounded-full">01</p>
+                            
+                                <p class="mx-10 p-5 border-2 border-gray-300 rounded-full">02</p>
+                                <div>
+                                    <p class="text-xl text-semibold text-center">Prevents cartilage and joint breakdown</p>
+                                    <p class="text-lg  text-semi">Lorem ipsum dolor sit amet, consectetur elit. </p>
+                                </div>
+
+                     
+                                <p class="mx-10 p-5 border-2 border-gray-300 rounded-full">03</p>
+                                <div>
+                                    <p class="text-xl text-semibold text-center">Prevents cartilage and joint breakdown</p>
+                                    <p class="text-lg  text-semi">Lorem ipsum dolor sit amet, consectetur elit. </p>
+                                </div>
+
+                                <p class="mx-10 p-5 border-2 border-gray-300 rounded-full">04</p>
                                 <div>
                                     <p class="text-xl text-semibold text-center">Prevents cartilage and joint breakdown</p>
                                     <p class="text-lg  text-semi">Lorem ipsum dolor sit amet, consectetur elit. </p>
                                 </div>
                             </div>
-                        </marquee>
                     </div>
+
+                  
                 </div>
 
 
@@ -193,9 +197,13 @@ style="fill:#FFFFFF;">
                 </div>
 
                 <div class="flex justify-evenly">
-                    <img src="images/demo-yoga-and-meditation-home-07.jpg" alt="An image here" class="w-[300px]">
+                    <div class="overflow-hidden w-[300px]">
+                        <img src="images/demo-yoga-and-meditation-home-07.jpg" alt="An image here" class=" transform transition-transform duration-500 hover:scale-110">
+                    </div>
                     <div class="flex">
-                        <img src="images/demo-yoga-and-meditation-home-08.jpg" alt="An image here" class="w-[300px]">
+                        <div class="overflow-hidden w-[300px]">
+                            <img src="images/demo-yoga-and-meditation-home-08.jpg" alt="An image here" class=" transform transition-transform duration-500 hover:scale-110">
+                        </div>
                         <div class="bg-black text-white pt-32 leading-5 text-center max-w-[200px] tracking-wider">
                             <p class="pt-12">Skilled Instructor</p>
                             <p class="text-gray-200">Lorem ipsum eiusmod adipiscing lit tempor.</p>
@@ -203,16 +211,21 @@ style="fill:#FFFFFF;">
 
                     </div>
 
-                    <img src="images/demo-yoga-and-meditation-home-09.jpg" alt="An image here" class="w-[300px]">
+                    <div class="overflow-hidden w-[300px]">
+                        <img src="images/demo-yoga-and-meditation-home-09.jpg" alt="An image here" class=" transform transition-transform duration-500 hover:scale-110">
+                    </div>
                 </div>
 
-                <div class="flex flex-row justify-evenly mt-10 mb-32">
-                    <img src="images/happy-boy.webp" alt="An image here" class="w-[50px] ml-[400px]">
-                    <p class="text-3xl mr-[300px] pt-6">Because we provide the awesome facility.</p>
+                <div class="flex mt-10 ">
+                    <img src="images/happy-boy.webp" alt="An image here" class="w-[50px] ml-96">
+                    <p class="text-3xl pt-6 ml-10">Because we provide the awesome facility.</p>
                 </div>
-                <marquee behavior="scroll" direction="left" scrollamount="6">
-                    <p class="text-[200px] text-[rgba(230,224,224,0.5)] text-center pl-20">MEDITATION MEDITATION</p>
-                </marquee>
+                <p class="w-32 h-[3px] lg:ml-[795px] mt-3 mb-5 bg-black"></p>
+                <div class="overflow-hidden whitespace-nowrap">
+                <div class="flex items-center animate-marquee">
+                    <p class="text-[200px] text-[rgba(209,205,205,0.5)] text-center">MEDITATION</p>
+                </div>
+                </div>
             </section>
             <!-- Section end here -->
             
@@ -222,31 +235,31 @@ style="fill:#FFFFFF;">
                     <p class="text-4xl">Why others love us</p>
                 </div>
                 <!-- text div ends here -->
-                <section class="flex justify-between ml-20 pb-20 mr-[20px]">
-                <div class="bg-white mb-10 pb-5">
+                <section  class="flex gap-10 ml-52 pb-20 mr-52">
+                <div class="bg-white mb-10 pb-5 px-5 " data-aos="fade-right" data-aos-duration="1500">
                     <!-- The nurse div start here -->
                     <div class=" pt-5 flex">
                         <img src="images/avtar-27.jpg" alt="An image here" class=" border rounded-full w-[120px]">
-                        <p class="max-w-[300px] font-semibold text-[#9E8883] ml-6 mt-5">Team of ThemeZaa has worked closely with us and never failed to follow our perfect business requirements.</p>
+                        <p class="max-w-[300px] font-semibold  text-[#9E8883] ml-6 mt-5">Team of ThemeZaa has worked closely with us and never failed to follow our perfect business requirements.</p>
                     </div>
-                    <hr>
+                    <hr class="mt-5">
                     <div class="flex justify-between pr-5  ">
                 
-                        <p class="font-semibold ml-6 mt-5 text-[#393334]">Herman Miller, ThemeZaa</p>
+                        <p class="font-bold text-lg ml-6 mt-5 text-[#393334]">Herman Miller, ThemeZaa</p>
                     </div>
                         <!-- The nurse div ends here -->
                 </div>
                 <!-- The div ends here -->
 
-                <div class="bg-white mb-10 pb-5">
+                <div class="bg-white mb-10 pb-5 px-5" data-aos="fade-left" data-aos-duration="1500">
                     <!-- The guy div start here -->
                     <div class=" pt-5 flex">
                         <img src="images/avtar-29.jpg" alt="An image here" class=" border rounded-full w-[120px]">
-                        <p class="max-w-[300px] font-semibold text-[#9E8883] ml-6 mt-5">I personally enjoyed the energy and the professional support the whole team gave to us into creating website.</p>
+                        <p class="max-w-[300px] font-semibold  text-[#9E8883] ml-6 mt-5">I personally enjoyed the energy and the professional support the whole team gave to us into creating website.</p>
                     </div>
-                    <hr>
+                    <hr class="mt-5">
                     <div class="flex justify-between pr-5">
-                        <p class="font-semibold ml-6 mt-5 text-[#393334]">Matthew Taylor, ThemeZaa</p>
+                        <p class="font-bold text-lg ml-6 mt-5 text-[#393334]">Matthew Taylor, ThemeZaa</p>
                     </div>
                         <!-- The guy div ends here -->
                 </div>
@@ -261,21 +274,21 @@ style="fill:#FFFFFF;">
                     <p class="text-xl font-semibold text-center text-[#DB6870]">THE RIGHT CLASSES</p>
                     <p class=" text-5xl font-normal text-center text-[#393334]">Classes on demand</p>
                 <section class="flex justify-around pt-10">
-                    <div class="flex flex-col items-center pb-10">
-                        <img src="images/demo-yoga-and-meditation-home-13.jpg" alt="An image here" class="w-[400px]">
+                    <div class="flex flex-col items-center pb-10 overflow-hidden w-[400px]">
+                        <img src="images/demo-yoga-and-meditation-home-13.jpg" alt="An image here" class=" transform transition-transform duration-500 hover:scale-110">
                         <p class="font-semibold text-xl pt-5 text-[#4A4546]">Demand classes</p>
                         <p class="font-semibold text-xl text-gray-400 ">Your online yoga program</p>
                     </div>
                     <!-- First box ended here -->
-                     <div class="flex flex-col items-center pb-10">
-                        <img src="images/demo-yoga-and-meditation-home-11.jpg" alt="An image here" class="w-[400px]">
+                     <div class="flex flex-col items-center pb-10 overflow-hidden w-[400px]">
+                        <img src="images/demo-yoga-and-meditation-home-11.jpg" alt="An image here" class=" transform transition-transform duration-500 hover:scale-110">
                         <p class="font-semibold text-xl pt-5 text-[#484243]">Demand classes</p>
                         <p class="font-semibold text-xl text-gray-400">Your online yoga program</p>
                     </div>
                     <!-- Second box end here -->
 
-                     <div class="flex flex-col items-center pb-10">
-                        <img src="images/demo-yoga-and-meditation-home-12.jpg" alt="An image here" class="w-[400px]">
+                     <div class="flex flex-col items-center pb-10 overflow-hidden w-[400px]">
+                        <img src="images/demo-yoga-and-meditation-home-12.jpg" alt="An image here" class=" transform transition-transform duration-500 hover:scale-110">
                         <p class="font-semibold text-xl pt-5 text-[#484243]">Demand classes</p>
                         <p class="font-semibold text-xl text-gray-400">Your online yoga program</p>
                     </div>
@@ -335,5 +348,10 @@ style="fill:#FFFFFF;">
                 </div>
 
             </footer>
+
+            <script>
+                AOS.init();
+
+            </script>
 </body>
 </html>
