@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('./src/images/footer-bg.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       keyframes: {
         marquee: {
           '0%': { transform: 'translateX(100%)' },
